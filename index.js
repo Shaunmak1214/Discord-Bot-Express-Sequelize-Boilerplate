@@ -53,7 +53,7 @@ client.on("ready", () =>{
             type: "WATCHING" // PLAYING, WATCHING, LISTENING, STREAMING,
         }
     });
-    client.user.setActivity("Managing Tasks"); 
+    client.user.setActivity("Whatever"); 
 });
 
 client.on('message', async message => {
